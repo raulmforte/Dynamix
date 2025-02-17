@@ -11,6 +11,7 @@
             document.getElementById('sidebar').classList.toggle('show');
         }
     </script>
+
     <style>
         /* Estilos para el sidebar */
         #sidebar {
