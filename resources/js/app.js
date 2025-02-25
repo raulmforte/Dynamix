@@ -5,8 +5,9 @@
  */
 
 import './bootstrap';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { createApp } from 'vue';
-import App from './components/App.vue';
+/* import App from './components/App.vue';
 
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
@@ -14,11 +15,11 @@ import App from './components/App.vue';
  * to use in your application's views. An example is included for you.
  */
 
-const app = createApp({App});
+/* const app = createApp({App});
 
 import ExampleComponent from './components/ExampleComponent.vue';
 app.component('example-component', ExampleComponent);
-
+ */
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
